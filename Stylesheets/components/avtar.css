@@ -1,37 +1,36 @@
 @import url("/stylesheets/main.css");
 
 .center {
-  display: inline-block;
-  align-items: center;
-  justify-content: center;
+  margin-left: 0%;
 }
 
 .avtar {
-  margin: 1rem;
-  width: 3rem;
-  height: 3rem;
+  margin: 0.3rem;
+  width: 2rem;
+  height: 2rem;
   border-radius: 50%;
   position: relative;
+  left: 30%;
 }
 
 .avtar-small {
-  width: 2rem;
-  height: 2rem;
+  width: 1.5rem;
+  height: 1.5rem;
 }
 
 .avtar-large {
-  width: 4rem;
-  height: 4rem;
+  width: 3rem;
+  height: 3rem;
 }
 
 .avtar-xlarge {
-  width: 5rem;
-  height: 5rem;
+  width: 4.5rem;
+  height: 4.5rem;
 }
 
 .avtar-xlarger {
-  width: 6rem;
-  height: 6rem;
+  width: 5.5rem;
+  height: 5.5rem;
 }
 .avtar-square {
   border-radius: 5%;
@@ -45,10 +44,10 @@
 .badge {
   width: 1rem;
   height: 1rem;
-  border-radius: 100%;
+  border-radius: 50%;
   position: absolute;
-  bottom: 30%;
-  right: 15%;
+  bottom: 20%;
+  right: -25%;
   border: 1.5px solid white;
 }
 
@@ -66,6 +65,10 @@
 
 .av-cont {
   display: flex;
+  position: relative;
+  width: auto;
+  height: 3rem;
+  left: 30%;
 }
 
 .avtar-border {
