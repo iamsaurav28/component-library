@@ -22,8 +22,8 @@ body {
 }
 
 .alert-dark {
-  background-color: black;
-  color: white;
+  background-color: var(--bg-black);
+  color: var(--white);
 }
 
 .alert-icon {
