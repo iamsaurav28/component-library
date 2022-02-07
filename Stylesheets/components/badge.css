@@ -1,0 +1,73 @@
+@import url(/Stylesheets/main.css);
+
+.bedge {
+  margin: 2rem;
+}
+.bg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  height: 2rem;
+  width: 2rem;
+  background-color: red;
+  border-radius: 50%;
+  position: relative;
+}
+
+.ml {
+  left: 4rem;
+  bottom: 6rem;
+}
+
+.cart {
+  left: 12.5rem;
+  bottom: 8rem;
+}
+.phone {
+  left: 19.7rem;
+  bottom: 10rem;
+}
+.insta {
+  left: 27.3rem;
+  bottom: 12rem;
+}
+
+.hero-img {
+  height: 100px;
+  width: auto;
+  border-radius: 50%;
+  margin: 2rem;
+}
+
+.social {
+  margin: 2rem;
+  height: 30px;
+  width: 30px;
+  border: 2px solid white;
+  border-radius: 50%;
+  position: relative;
+}
+
+.ol {
+  background-color: var(--badge-online);
+  left: 4rem;
+  bottom: 6rem;
+}
+
+.id {
+  background-color: var(--badge-idle);
+  left: 14.5rem;
+  bottom: 10rem;
+}
+
+.off {
+  background-color: var(--badge-dnd);
+  left: 25rem;
+  bottom: 13.8rem;
+}
+
+.hero {
+  position: relative;
+  bottom: 7rem;
+}
