@@ -1,7 +1,5 @@
 @import url(/Stylesheets/main.css);
-body {
-  background-color: aquamarine;
-}
+
 .container {
   margin-top: 1rem;
   display: flex;
@@ -11,21 +9,20 @@ body {
 .card {
   height: 21.5rem;
   width: 15rem;
-  background: var(--bg-white);
-  margin-left: 1rem;
+  background: var(--light-gray);
+  margin-left: 2rem;
 }
-.card2 {
+.card-doc {
   height: 21.5rem;
   width: 15rem;
-  background: var(--bg-white);
+  background: var(--light-gray);
   margin-left: 1rem;
+}
+.cardbox {
   box-shadow: 7px 12px grey;
 }
 .card-only {
   height: 11.5rem;
-  width: 15rem;
-  background: var(--bg-white);
-  margin-left: 1rem;
   box-shadow: 20, 20 blue;
 }
 
@@ -46,11 +43,14 @@ body {
   background-image: url("https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c2hvZXxlbnwwfHwwfHw%3D&w=1000&q=80");
 }
 
+.con {
+  position: relative;
+}
+
 .badge1 {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  position: relative;
   top: 0.5rem;
   left: 0.2rem;
   background-color: orange;
@@ -60,16 +60,10 @@ body {
   text-align: center;
 }
 
-img {
-  position: relative;
-}
-
 .text {
-  position: relative;
   left: 0.5rem;
 }
 .text1 {
-  position: relative;
   bottom: -0.1rem;
   left: 0.5rem;
 }
@@ -100,7 +94,6 @@ span {
   padding-right: 0.4rem;
 }
 .bucket {
-  position: relative;
   right: 11rem;
   bottom: 1rem;
 }
@@ -109,8 +102,7 @@ span {
   height: 10rem;
   width: 20rem;
   margin-left: 2rem;
-  background: var(--bg-white);
-  position: relative;
+  background: var(--light-gray);
 }
 
 .dismiss {
@@ -124,17 +116,14 @@ span {
 }
 
 .cardop {
-  position: relative;
   bottom: 1.5rem;
 }
 
 .text-side {
-  position: relative;
   left: 10.5rem;
   bottom: 10rem;
 }
 
 .high {
-  position: relative;
   bottom: 0.5rem;
 }
