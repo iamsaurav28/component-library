@@ -36,28 +36,6 @@
   width: fit-content;
 }
 
-/* .badge {
-  width: 1rem;
-  height: 1rem;
-  border-radius: 50%;
-  position: absolute;
-  bottom: 20%;
-  right: -25%;
-  border: 1.5px solid white;
-}
-
-.badge-online {
-  background-color: var(--badge-online);
-}
-
-.badge-idle {
-  background-color: var(--badge-idle);
-}
-
-.badge-dnd {
-  background-color: var(--badge-dnd);
-} */
-
 .av-cont {
   display: flex;
   position: relative;
