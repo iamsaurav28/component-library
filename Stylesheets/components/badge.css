@@ -1,4 +1,6 @@
 @import url(/Stylesheets/main.css);
+.container {
+}
 
 .mark {
   margin: 2rem;
@@ -17,25 +19,25 @@
   width: 2rem;
   background-color: red;
   border-radius: 50%;
-  position: relative;
+  position: absolute;
+}
+
+.bot {
+  bottom: 34.7rem;
 }
 
 .mail {
   left: 4rem;
-  bottom: 6rem;
 }
 
 .cart {
   left: 11rem;
-  bottom: 7.8rem;
 }
 .phone {
   left: 18rem;
-  bottom: 10rem;
 }
 .insta {
-  margin-left: 4rem;
-  bottom: 12rem;
+  left: 25rem;
 }
 
 .hero-img {
@@ -71,6 +73,6 @@
 }
 
 .hero {
-  position: absolute;
+  position: relative;
   top: 7rem;
 }
