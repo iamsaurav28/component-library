@@ -15,10 +15,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  color: white;
+  color: var(--white);
   height: 2rem;
   width: 2rem;
-  background-color: red;
+  background-color: var(--error);
   border-radius: 50%;
   position: absolute;
 }
@@ -50,7 +50,7 @@
 .social {
   height: 2rem;
   width: 2rem;
-  border: 0.2rem solid white;
+  border: 0.2rem solid var(--white);
   border-radius: 50%;
   position: absolute;
 }
