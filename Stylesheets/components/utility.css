@@ -1,0 +1,35 @@
+@import url(/Stylesheets/main.css);
+
+.heading-text,
+.para-text {
+  padding: 10px;
+}
+.ht {
+  line-height: 2.5rem;
+}
+.font-large {
+  font-size: 2rem;
+}
+.font-regular {
+  font-size: 1.5rem;
+}
+.font-medium {
+  font-size: 1rem;
+}
+.font-small {
+  font-size: 0.75rem;
+}
+.align-left {
+  text-align: left;
+}
+.align-center {
+  text-align: center;
+}
+.align-right {
+  text-align: right;
+}
+.grey-text {
+  font-weight: bold;
+  font-size: xx-large;
+  color: var(--text-grey);
+}
