@@ -7,16 +7,16 @@
 .ht {
   line-height: 2.5rem;
 }
-.body-cp-lg {
+.body-font-large {
   font-size: 2rem;
 }
-.body-cp-rg {
+.body-font-regular {
   font-size: 1.5rem;
 }
-.body-cp-md {
+.body-font-medium {
   font-size: 1rem;
 }
-.body-cp-sm {
+.body-font-small {
   font-size: 0.75rem;
 }
 .align-left {
