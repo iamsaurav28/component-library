@@ -29,4 +29,8 @@
   --badge-idle: #e2a53c;
   --badge-dnd: #cc3014;
   --badge-border: #390557;
+
+  --bg-black: #1e293b;
+
+  --text-grey: gainsboro;
 }
