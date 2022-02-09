@@ -21,7 +21,7 @@
   width: 25rem;
   padding: 1rem;
   margin: 1rem;
-  border-radius: 1rem;
+  border-radius: 0.8rem;
   border: 0.1rem solid var(--bg-black);
   font-size: larger;
 }
