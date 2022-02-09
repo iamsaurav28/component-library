@@ -1,0 +1,36 @@
+@import url(/Stylesheets/main.css);
+
+.heading-text,
+.para-text {
+  padding: 10px;
+}
+.body-cp-lg {
+  font-size: 2rem;
+  line-height: 2.5rem;
+}
+.body-cp-rg {
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+}
+.body-cp-md {
+  font-size: 1rem;
+  line-height: 2.5rem;
+}
+.body-cp-sm {
+  font-size: 0.75rem;
+  line-height: 2.5rem;
+}
+.align-left {
+  text-align: left;
+}
+.align-center {
+  text-align: center;
+}
+.align-right {
+  text-align: right;
+}
+.grey-text {
+  font-weight: bold;
+  font-size: xx-large;
+  color: var(--text-grey);
+}
